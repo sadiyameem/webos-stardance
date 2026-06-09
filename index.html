@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebOS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top-bar">
+            <span is="welcomeopen" class="os-name" style="cursor:pointer;">StarOS</span>
+            <span is="timeElement"></span>
+        </div>
+        <div id="myAppIcon" class="app-icon" style="text-align:center; padding:16px; cursor:pointer;">
+            <span style="font-size:48px">⭐</span>
+            <p style="margin:0px; color:black">About this OS</p>
+        </div>
+        <div class="window" id="myAppWindow" style="display:none;">
+            <div class="window-header" id="myAppHeader">
+                <span class="title">About this</span>
+                <div class="closebutton" id="myAppCLose"></div>
+            </div>
+            <div class="window-content">
+                <p>This is a placeholder text</p>
+                <p>Again a placeholder</p>
+            </div>
+        </div>
+        <div id="contactIcon" class="app-icon" style="text-align:center; padding:16px; cursor:pointer;">
+            <span style="font-size:48px">🌕</span>
+            <p style="margin:0px; color:black">Contact</p>
+        </div>
+        <div class="window" id="contactWindow" style="display:none;">
+            <div class="window-header" id="contactHeader">
+                <span class="title">Contact Me</span>
+                <div class="closebutton" id="contactClose"></div>
+            </div>
+            <div class="window-contant">
+                <h2>Get in Touch!</h2>
+                <p>
+                    <a href="https://hackclub.com/">Link1</a>
+                    <a href="https://stardance.hackclub.com/">Link2</a>
+                    <a href="stardance@hackclub.com">Link3</a>
+                </p>
+            </div>
+        </div>
+        <div class="window" id="welcome">
+            <div class="window-header" id="welcomeheader">
+                <div class="buttons">
+                    <span class="red circle"></span>
+                    <span class="yellow circle"></span>
+                    <span class="green circle"></span>
+                </div>
+                <span class="title">StarOS</span>
+                <div class="closebutton" id="welcomeclose"></div>
+            </div>
+            <div class="window-content">
+                <h1>Welcome to my placeholder</h1>
+                <p>My name is placeholder</p>
+                <img src="star-bg.jpg">
+
+                <h2>About placeholder</h2>
+                <p>I am a placeholder text</p>
+
+                <h2>My placeholder</h2>
+                <p>I am again a placeholder</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
