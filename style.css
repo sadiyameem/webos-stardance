@@ -44,9 +44,9 @@ body {
     border-radius: 50%;
 }
 
-.purple {background-color: #4b0082;}
-.yellow {background-color: #ffbd2e;}
-.green {background-color: #28c840;}
+.pink {background-color: #ff6ec7;}
+.yellow {background-color: #ffd700;}
+.green {background-color: #00ff00;}
 
 .title {
     font-weight: bold;
@@ -96,8 +96,8 @@ img {
 }
 
 #desktopApps {
-    padding-top: 70px;
-    padding-left: 20px;
+    position: absolute;
+    display: flex;
 }
 
 .app-icon {
