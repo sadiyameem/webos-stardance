@@ -1,6 +1,6 @@
 body {
     background-color: #4682B4;
-    background-image: url('star.png');
+    background-image: url('star-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -16,7 +16,7 @@ body {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     overflow: hidden;
 }
@@ -26,14 +26,14 @@ body {
 }
 
 .window-header {
-    background-color: white;
+    background-color: #f0f0f0;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.button {
+.buttons {
     display: flex;
     gap: 6px;
 }
@@ -44,9 +44,9 @@ body {
     border-radius: 50%;
 }
 
-.red {background-color: red;}
-.yellow {background-color: yellow;}
-.green {background-color: green;}
+.purple {background-color: #4b0082;}
+.yellow {background-color: #ffbd2e;}
+.green {background-color: #28c840;}
 
 .title {
     font-weight: bold;
@@ -55,10 +55,65 @@ body {
 .closebutton {
     width: 16px;
     height: 16px;
-    cursor:pointer;
-    background-color: #FF6EC7;
+    cursor: pointer;
+    background-color: #808080;
     border-radius: 50%;
     border: 1px solid rgba(0,0,0,0.25);
 }
 
-.top-bar {}
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+p {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+h1 {
+    padding: 4px;
+    margin: 4px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+#desktopApps {
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.app-icon {
+    text-align: center;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.app-icon img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+}
+
+.app-icon p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}

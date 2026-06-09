@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>WebOS</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="top-bar">
-            <span is="welcomeopen" class="os-name" style="cursor:pointer;">StarOS</span>
-            <span is="timeElement"></span>
-        </div>
+<head>
+    <title>My StardanceOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <span id="welcomeopen" class="os-name" style="cursor:pointer; color:white;">StarOS</span>
+        <span id="timeElement" style="color:white"></span>
+    </div>
+
         <div id="myAppIcon" class="app-icon" style="text-align:center; padding:16px; cursor:pointer;">
-            <span style="font-size:48px">⭐</span>
-            <p style="margin:0px; color:black">About this OS</p>
+            <span style="font-size:48px;">⭐</span>
+            <p style="margin:0px; color:white;">About Me</p>
         </div>
-        <div class="window" id="myAppWindow" style="display:none;">
-            <div class="window-header" id="myAppHeader">
-                <span class="title">About this</span>
-                <div class="closebutton" id="myAppCLose"></div>
-            </div>
+
+            <div class="window" id="myAppWindow" style="display: none;">
+                <div class="window-header" id="myAppHeader">
+                    <span class="title">About Me</span>
+                    <div class="closebutton" id="myAppClose"></div>
+        </div>
             <div class="window-content">
-                <p>This is a placeholder text</p>
-                <p>Again a placeholder</p>
+                <p>Stardance is for anyone ages 13-18</p>
+                <p>If you are 19 or older you can refer others and get an AMD GPU.</p>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vQu3H0kYWgFTZ4080k-kqzwLObJ2zJe_QMDO8XQcDf8UH9AwDtG31oURSGBQ9nEJ3kExbSKnDYAx1-E/pub">Raffle</a>
             </div>
         </div>
+
         <div id="contactIcon" class="app-icon" style="text-align:center; padding:16px; cursor:pointer;">
-            <span style="font-size:48px">🌕</span>
-            <p style="margin:0px; color:black">Contact</p>
+            <span style="font-size:48px;">🌕</span>
+            <p style="margin:0px; color:white;">Contact Me</p>
         </div>
-        <div class="window" id="contactWindow" style="display:none;">
+
+        <div class="window" id="contactWindow" style="display: none;">
             <div class="window-header" id="contactHeader">
                 <span class="title">Contact Me</span>
-                <div class="closebutton" id="contactClose"></div>
-            </div>
-            <div class="window-contant">
-                <h2>Get in Touch!</h2>
+                <div class="closebutton" id="contactClose" style="margin:5px;"></div>
+        </div>
+            <div class="window-content">
+                <h2>Sign up!</h2>
                 <p>
-                    <a href="https://hackclub.com/">Link1</a>
-                    <a href="https://stardance.hackclub.com/">Link2</a>
-                    <a href="stardance@hackclub.com">Link3</a>
+                    <a href="https://hackclub.com/">Hack Club</a>
+                    <a href="https://stardance.hackclub.com/">Stardance</a>
+                    <a href="mailto:stardance@hackclub.com">Contact</a>
                 </p>
             </div>
         </div>
-        <div class="window" id="welcome">
-            <div class="window-header" id="welcomeheader">
-                <div class="buttons">
-                    <span class="red circle"></span>
-                    <span class="yellow circle"></span>
-                    <span class="green circle"></span>
-                </div>
-                <span class="title">StarOS</span>
-                <div class="closebutton" id="welcomeclose"></div>
-            </div>
-            <div class="window-content">
-                <h1>Welcome to my placeholder</h1>
-                <p>My name is placeholder</p>
-                <img src="star-bg.jpg">
 
-                <h2>About placeholder</h2>
-                <p>I am a placeholder text</p>
-
-                <h2>My placeholder</h2>
-                <p>I am again a placeholder</p>
-            </div>
+    <div class="window" id="welcome">
+    <div class="window-header" id="welcomeheader">
+        <div class="buttons">
+            <span class="purple circle"></span>
+            <span class="yellow circle"></span>
+            <span class="green circle"></span>
         </div>
-        <script src="script.js"></script>
-    </body>
+        <span class="title">StardanceOS</span>
+        <div class="closebutton" id="welcomeclose"></div>
+    </div>
+
+    <div class="window-content">
+        <h1>Welcome to StardanceOS</h1>
+        <img src="https://stardance.hackclub.com/assets/landing/done-before/star-artwork-96d57bc7.png" style="width: 300px; height: auto;"/>
+
+        <h2>About StardanceOS</h2>
+        <p>The largest STEM event of the summer.</p>
+        <p>Stardance is a free online summer program.</p>
+        <p>How it works: Make any type of project and get prizes.</p>
+        <p>It runs from June 1-September 30</p>
+        <a href="https://www.youtube.com/watch?v=85o8gFOZgNU">Stardance Video</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
