@@ -15,6 +15,12 @@ StardanceOS
 - JavaScript
 - WebOS Guide provided
 
+# Links
+- https://emojicopy.com/
+- https://pixabay.com/
+- https://unsplash.com/
+- https://www.eggradients.com/blog/space-colors
+
 # Challenge/Learned
 - I struggled with making it look like an operating system and adding the dark mode button.
 - I learned how to implement a new feature (dark mode) in a project for the first time.
