@@ -1,5 +1,5 @@
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bkg-color);
     background-image: url('star-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -139,11 +139,11 @@ img {
 }
 
 :root {
-    --bg-color: #4682b4;
+    --bkg-color: #4682b4;
     --window-color: white;
 }
 
 .dark-mode {
-    --bg-color: #4682B4;
+    --bkg-color: #4682B4;
     --window-color: #b77bb4;
 }
