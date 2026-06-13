@@ -8,22 +8,24 @@
 - Dark mode
 - Live clock
 - Apps that open and close
+- Sound on all features
 
 # Tools
 - HTML
 - CSS
 - JavaScript
-- WebOS Guide provided
+- WebOS guide
 
 # Links
 - https://emojicopy.com/
 - https://pixabay.com/
 - https://unsplash.com/
 - https://www.eggradients.com/blog/space-colors
+- https://pixabay.com/sound-effects/
 
 # Challenge/Learned
 - I struggled with making it look like an operating system and adding the dark mode button.
-- I learned how to implement a new feature (dark mode) in a project for the first time.
+- I learned how to add new features in a project for the first time.
 
 # Images
 <img width="2928" height="1488" alt="Screenshot 2026-06-12 at 7 54 02 PM" src="https://github.com/user-attachments/assets/a6d6b9ed-481b-4b5d-93f9-5f9c9f811b92" />
