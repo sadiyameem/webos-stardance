@@ -1,3 +1,7 @@
+// sound
+const audio = new Audio();
+audio.src="sci-fi-click.mp3";
+
 // time
 function updateTime() {
     var currentTime = new Date().toLocaleString();
@@ -56,18 +60,22 @@ const contactWindow = document.getElementById("contactWindow");
 const contactClose = document.getElementById("contactClose");
 
 contactIcon.addEventListener("click", () => {
+    audio.play();
     contactWindow.style.display = "flex";
 });
 
 contactClose.addEventListener("click", () => {
+    audio.play();
     contactWindow.style.display = "none";
 });
 
 myAppIcon.addEventListener("click", () => {
+    audio.play();
     myAppWindow.style.display = "flex";
 });
 
 myAppClose.addEventListener("click", () => {
+    audio.play();
     myAppWindow.style.display = "none";
 });
 
@@ -75,6 +83,7 @@ dragElement(document.getElementById("myAppWindow"));
 dragElement(contactWindow);
 
 welcomeClose.addEventListener("click", () => {
+    audio.play();
     welcomeScreen.style.display = "none";
 });
 
@@ -105,4 +114,7 @@ handleThemeToggle = () => {
 };
 
 // events
-themeToggleBtn.addEventListener('click', handleThemeToggle);
+themeToggleBtn.addEventListener('click', () => {
+    audio.play();
+    handleThemeToggle();
+});
