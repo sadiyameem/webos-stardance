@@ -131,6 +131,7 @@ img {
     height: 2rem;
     margin-top: 10px;
     background: transparent;
+    cursor: pointer;
 }
 
 .theme-toggle img {
