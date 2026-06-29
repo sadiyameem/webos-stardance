@@ -58,6 +58,9 @@ const myAppClose = document.getElementById("myAppClose");
 const contactIcon = document.getElementById("contactIcon");
 const contactWindow = document.getElementById("contactWindow");
 const contactClose = document.getElementById("contactClose");
+const calculatorIcon = document.getElementById("calculatorIcon");
+const calculatorWindow = document.getElementById("calculatorWindow");
+const calculatorClose = document.getElementById("calculatorClose");
 
 contactIcon.addEventListener("click", () => {
     audio.play();
@@ -79,8 +82,19 @@ myAppClose.addEventListener("click", () => {
     myAppWindow.style.display = "none";
 });
 
+calculatorClose.addEventListener("click", () => {
+    audio.play();
+    calculatorWindow.style.display = "none";
+});
+
+calculatorIcon.addEventListener("click", () => {
+    audio.play();
+    calculatorWindow.style.display = "flex";
+});
+
 dragElement(document.getElementById("myAppWindow"));
 dragElement(contactWindow);
+dragElement(calculatorWindow);
 
 welcomeClose.addEventListener("click", () => {
     audio.play();
@@ -118,3 +132,32 @@ themeToggleBtn.addEventListener('click', () => {
     audio.play();
     handleThemeToggle();
 });
+
+let input = document.getElementById('inputBox');
+let buttons = document.querySelectorAll('.button');
+
+let string = "";
+let arr = Array.from(buttons);
+arr.forEach(button => {
+    button.addEventListener('click', (e) => {
+        if(e.target.innerHTML == '=') {
+            string = eval(string);
+            input.value = string;
+        }
+
+        else if(e.target.innerHTML == 'AC') {
+            string = "";
+            input.value = string;
+        }
+
+        else if(e.target.innerHTML == 'DEL') {
+            string = string.substring(0, string.length-1);
+            input.value = string;
+        }
+
+        else{
+            string += e.target.innerHTML;
+            input.value = string;
+        }
+    })
+})
