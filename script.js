@@ -161,3 +161,35 @@ arr.forEach(button => {
         }
     })
 })
+
+let btnGet = document.querySelector("#getBattery");
+let levelEl = document.querySelector("#level");
+let isChargingEl = document.querySelector("#is-charging");
+
+btnGet.addEventListener("click", updateInfo)
+
+let battery;
+
+async function updateInfo() {
+    if (!("getBattery" in navigator)) return;
+
+    if(battery) {
+        battery.removeEventListener("levelchange", updateLevel);
+        battery.removeEventListener("chargingchange", updateCharging);
+    }
+
+    battery = await navigator.getBattery();
+    updateLevel();
+    updateCharging();
+
+    battery.addEventListener("levelchange", updateLevel);
+    battery.addEventListener("chargingchange", updateCharging);
+}
+
+function updateLevel() {
+    levelEl.innerHTML = `${Math.round(battery.level * 100)}%`;
+}
+
+function updateCharging() {
+    isChargingEl.innerHTML = `${battery.charging ? "Yes" : "No"}`;
+}
