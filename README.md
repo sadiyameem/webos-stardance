@@ -9,6 +9,9 @@
 - Live clock
 - Apps that open and close
 - Sound on all features
+- Battery status
+- Calculator app
+- Theme selector
 
 # Tools
 - HTML
@@ -22,6 +25,7 @@
 - https://unsplash.com/
 - https://www.eggradients.com/blog/space-colors
 - https://pixabay.com/sound-effects/
+- https://www.flaticon.com/
 
 # Challenge/Learned
 - I struggled with making it look like an operating system and adding the dark mode button.
