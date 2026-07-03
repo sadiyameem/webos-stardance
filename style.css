@@ -213,3 +213,41 @@ img {
 .battery-info span {
     margin-right: 3px;
 }
+
+.theme-selector {
+    display: flex;
+    justify-content: center;
+}
+
+.theme-selector button {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#Star {
+    background-image: url('star-bg.jpg');
+}
+
+#Space {
+    background-image: url('space-bg.jpg');
+}
+
+#Galaxy {
+    background-image: url('galaxy-bg.jpg');
+}
+
+#Nebula {
+    background-image: url('nebula.jpg');
+}
+
+#Milky-way {
+    background-image: url('milky-way.jpg');
+}
+
+#Satellite {
+    background-image: url('satellite.jpg');
+}
