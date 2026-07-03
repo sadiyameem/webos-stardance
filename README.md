@@ -32,7 +32,7 @@
 - I also struggled with adding the battery status it was mainly the CSS part.
 - I learned how to add new features in a project for the first time.
 
-# Images
+# Image
 <img width="2914" height="1236" alt="Screenshot 2026-07-03 at 3 03 29 PM" src="https://github.com/user-attachments/assets/c1d8480c-8a01-4ced-aab9-8defbe5afdd2" />
 
 
