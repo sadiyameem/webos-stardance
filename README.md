@@ -29,9 +29,10 @@
 
 # Challenge/Learned
 - I struggled with making it look like an operating system and adding the dark mode button.
+- I also struggled with adding the battery status it was mainly the CSS part.
 - I learned how to add new features in a project for the first time.
 
 # Images
-<img width="2928" height="1488" alt="Screenshot 2026-06-12 at 7 54 02 PM" src="https://github.com/user-attachments/assets/a6d6b9ed-481b-4b5d-93f9-5f9c9f811b92" />
-<img width="2896" height="1440" alt="Screenshot 2026-06-12 at 7 54 13 PM" src="https://github.com/user-attachments/assets/7d972f7e-e72b-4195-a976-168ab855eb7b" />
+<img width="2914" height="1236" alt="Screenshot 2026-07-03 at 3 03 29 PM" src="https://github.com/user-attachments/assets/c1d8480c-8a01-4ced-aab9-8defbe5afdd2" />
+
 
